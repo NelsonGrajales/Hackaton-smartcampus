@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
+from inference_sdk import InferenceHTTPClient
 import os
 
 app = FastAPI()
